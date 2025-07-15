@@ -1,0 +1,244 @@
+/* =====================
+   Contact Page Styles
+   ===================== */
+.contact-hero {
+    min-height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/contact-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    position: relative;
+}
+
+.contact-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contact-hero p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* =====================
+   Contact Form Section
+   ===================== */
+.contact-section {
+    padding: 5rem 0;
+    background-color: var(--light-bg);
+}
+
+.contact-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-card .card-title {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.contact-card .form-label {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.contact-card .form-control {
+    border: 1px solid var(--border-color);
+    padding: 0.8rem;
+    border-radius: 8px;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+.contact-card .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(139, 0, 0, 0.25);
+}
+
+.contact-card .btn-primary {
+    width: 100%;
+    padding: 0.8rem;
+    font-weight: 500;
+}
+
+/* =====================
+   Contact Info Section
+   ===================== */
+.contact-info-section {
+    padding: 5rem 0;
+    background-color: var(--white);
+}
+
+.contact-info-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: var(--card-bg);
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+}
+
+.contact-info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.contact-info-card i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact-info-card h3 {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-info-card p {
+    color: var(--light-text);
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+/* =====================
+   Map Section
+   ===================== */
+.map-section {
+    padding: 3rem 0;
+    background-color: var(--light-bg);
+}
+
+.map-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* =====================
+   Hero Section (Override)
+   ===================== */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero/contact-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* =====================
+   Contact Info Details
+   ===================== */
+.contact-info .contact-item h5 {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.contact-info .contact-item p {
+    color: var(--light-text);
+    font-size: 1.1rem;
+}
+
+.contact-info .contact-item a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.contact-info .contact-item a:hover {
+    color: var(--primary-color);
+}
+
+.social-links h5 {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+/* =====================
+   Dark Mode Adjustments
+   ===================== */
+[data-theme="dark"] .contact-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .contact-card .card-title {
+    color: var(--text-on-dark);
+}
+
+[data-theme="dark"] .contact-card .form-label {
+    color: var(--text-on-dark);
+}
+
+[data-theme="dark"] .contact-card .form-control {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--text-on-dark);
+}
+
+[data-theme="dark"] .contact-info-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .contact-info-card h3 {
+    color: var(--text-on-dark);
+    font-size: 1.5rem;
+}
+
+[data-theme="dark"] .contact-info-card p {
+    color: var(--light-text);
+    font-size: 1.1rem;
+}
+
+[data-theme="dark"] .contact-info .contact-item h5 {
+    color: var(--text-on-dark);
+    font-size: 1.3rem;
+}
+
+[data-theme="dark"] .contact-info .contact-item p {
+    color: var(--light-text);
+}
+
+[data-theme="dark"] .contact-info .contact-item a {
+    color: var(--text-on-dark);
+}
+
+[data-theme="dark"] .social-links h5 {
+    color: var(--text-on-dark);
+}
+
+/* Social icons in contact info section */
+.contact-info .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.contact-info .social-icons a i {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    transition: color 0.2s;
+}
+.contact-info .social-icons a i:hover {
+    color: var(--secondary-color);
+} 

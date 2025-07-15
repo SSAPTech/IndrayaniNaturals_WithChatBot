@@ -1,0 +1,237 @@
+/* Home Page Specific Styles */
+.hero {
+    min-height: auto;
+    background: 
+        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+        url('../images/home-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero::before {
+    display: none; /* Removing the gradient overlay */
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    background: rgba(0,0,0,0.25);
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.hero-content .lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    opacity: 1;
+    transform: none;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    opacity: 1;
+    transform: none;
+}
+
+/* Hero Image Rotation */
+.hero-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s;
+}
+
+.hero-image.active {
+    opacity: 1;
+}
+
+.hero > .container, .hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Floating Animation for Hero Elements */
+/* Animations */
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content .lead {
+        font-size: 1.2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+    }
+}
+
+/* Hero Section Navigation Arrows */
+.hero-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    opacity: 0.85;
+}
+.hero-arrow:hover, .hero-arrow:focus {
+    background: rgba(0,0,0,0.8);
+    color: #ffd700;
+    outline: none;
+    opacity: 1;
+}
+.hero-arrow-left {
+    left: 24px;
+}
+.hero-arrow-right {
+    right: 24px;
+}
+@media (max-width: 768px) {
+    .hero-arrow {
+        width: 36px;
+        height: 36px;
+        font-size: 1.1rem;
+    }
+    .hero-arrow-left {
+        left: 8px;
+    }
+    .hero-arrow-right {
+        right: 8px;
+    }
+}
+
+/* Featured Products Section */
+.featured-products {
+    padding: 4rem 0;
+}
+
+.featured-products .card {
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-products .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.featured-products .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.featured-products .card-body {
+    padding: 1.5rem;
+    background-color: var(--card2-bg);
+}
+
+.featured-products .card-title {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.featured-products .card-text {
+    color: var(--text-color);
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background-color: var(--card2-bg);
+    padding: 4rem 0;
+}
+
+.newsletter-form .form-control {
+    border: 1px solid var(--border-color);
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+}
+
+.newsletter-form .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(139, 0, 0, 0.25);
+}
+
+/* Why Choose Us Section */
+.why-choose-us .feature-box {
+    text-align: center;
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.why-choose-us .feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.why-choose-us .feature-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.why-choose-us h3 {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.why-choose-us p {
+    color: var(--text-color);
+    opacity: 0.9;
+} 

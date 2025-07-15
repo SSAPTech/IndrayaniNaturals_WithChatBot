@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Primary Meta Tags -->
+    <title>Contact Us | Indrayani Naturals</title>
+    <meta name="description" content="Contact Indrayani Naturals for premium spices, feedback, or inquiries. We're here to help you discover authentic Indian flavors.">
+    <meta name="keywords" content="contact, spices, Indrayani Naturals, feedback, inquiry, customer service">
+    <meta name="author" content="Indrayani Naturals">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading">
+        <div class="loading-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo.jpg" alt="Indrayani Naturals Logo">
+                <span>Indrayani Naturals</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipes.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://md-33.webhostbox.net:2096/">Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="btn btn-link nav-link" aria-label="Toggle dark/light mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-images">
+            <img class="hero-image active" data-src="../images/hero/contact-hero.jpg">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Get in Touch</h1>
+                <p class="lead">We'd love to hear from you! Reach out for any inquiries about our premium spices.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <main class="container my-5">
+        <div class="row g-4">
+            <!-- Contact Form -->
+            <div class="col-lg-6">
+                <div class="card h-100 contact-card">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4">Send us a Message</h3>
+                        <form id="contactForm" action="https://formsubmit.co/indrayaninaturals@gmail.com" method="POST" class="needs-validation">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="New Contact from {name} ({email})">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                                <div class="invalid-feedback">Please enter your name.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" name="subject" required>
+                                <div class="invalid-feedback">Please enter a subject.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                <div class="invalid-feedback">Please enter your message.</div>
+                            </div>
+                            <button type="submit" class="btn btn-spice">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-lg-6">
+                <div class="card h-100 contact-card">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4">Contact Information</h3>
+                        <div class="contact-info">
+                            <div class="contact-item mb-4">
+                                <h5><i class="fas fa-map-marker-alt me-2"></i>Address</h5>
+                                <p>Dighi, Pune <br>Maharashtra, India </p>
+                            </div>
+                            <div class="contact-item mb-4">
+                                <h5><i class="fas fa-phone me-2"></i>Phone</h5>
+                                <p><a>+91-9545100046</a></p>
+                            </div>
+                            <div class="contact-item mb-4">
+                                <h5><i class="fas fa-envelope me-2"></i>Email</h5>
+                                <p><i class="fas fa-envelope"></i> indrayaninaturals@gmail.com</p>
+                                <p><i class="fas fa-envelope"></i> contact@indrayaninaturals.com</p>
+                            </div>
+                            <div class="contact-item mb-4">
+                                <h5><i class="fas fa-clock me-2"></i>Business Hours</h5>
+                                <p>Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                            </div>
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="https://instagram.com/indrayaninaturals" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                                <a href="https://wa.me/919545100046" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Indrayani Naturals</h4>
+                    <p>Our Marathi Spices are handcrafted with the finest local ingredients, capturing the rich heritage and bold flavors that define our region.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="important-link">Home</a></li>
+                        <li><a href="products.html" class="important-link">Products</a></li>
+                        <li><a href="recipes.html" class="important-link">Recipes</a></li>
+                        <li><a href="contact.html" class="important-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Dighi, Pune, India</p>
+                        <p><i class="fas fa-phone"></i> +91-9545100046 (WhatsApp)</p>
+                        <p><i class="fas fa-envelope"></i> indrayaninaturals@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i> contact@indrayaninaturals.com</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/indrayaninaturals" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919545100046" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2025 SSAPTECH Solutions LLP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Home Button -->
+    <a href="../index.html" class="home-button">
+        <i class="fas fa-home"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

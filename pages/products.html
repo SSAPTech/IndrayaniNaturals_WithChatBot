@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Primary Meta Tags -->
+    <title>Premium Spice Mixes | Indrayani Naturals</title>
+    <meta name="description" content="Discover premium spice mixes from Indrayani Naturals. Handcrafted blends for authentic flavors, including Garam Masala, Biryani Masala, and more.">
+    <meta name="keywords" content="spice mixes, Garam Masala, Biryani Masala, Chicken Masala, Mungvadi, Indrayani Naturals">
+    <meta name="author" content="Indrayani Naturals">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/products.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading">
+        <div class="loading-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo.jpg" alt="Indrayani Naturals Logo">
+                <span>Indrayani Naturals</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipes.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://md-33.webhostbox.net:2096/">Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="btn btn-link nav-link" aria-label="Toggle dark/light mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-images">
+            <img class="hero-image active" data-src="../images/hero/products-hero.jpg">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Premium Spice Collection</h1>
+                <p class="lead">Discover our handcrafted spice blends for authentic Indian flavors</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Products Section -->
+    <main id="main-content" class="container-fluid px-0">
+        <!-- Featured Spice Mixes -->
+        <section class="featured-spices">
+            <div class="container">
+                <h2 class="section-title">Our Signature Blends</h2>
+                <div class="row g-4">
+                    <!-- Garam Masala -->
+                    <div class="col-md-4">
+                        <div class="product-card h-100">
+                            <img src="../images/products/garam-masala.jpg" class="card-img-top" alt="Garam Masala">
+                            <div class="card-body">
+                                <h5 class="card-title">Garam Masala</h5>
+                                <div class="spice-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="card-text">The perfect blend of aromatic spices that adds warmth and depth to your dishes.</p>
+                                <div class="product-details">
+                                    <h5>Key Ingredients:</h5>
+                                    <ul>
+                                        <li>Chilli & Coconut</li>
+                                        <li>Black Pepper & Cumin</li>
+                                        <li>Cloves & Mace</li>
+                                        <li>Cardamom & Cinnamon</li>
+                                    </ul>
+                                </div>
+                                <div class="price">₹195/200g</div>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#garamMasalaModal">
+                                    View More Information
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Biryani Masala -->
+                    <div class="col-md-4">
+                        <div class="product-card h-100">
+                            <img src="../images/products/biryani-masala.jpg" class="card-img-top" alt="Biryani Masala">
+                            <div class="card-body">
+                                <h5 class="card-title">Biryani Masala</h5>
+                                <div class="spice-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="card-text">Aromatic blend perfect for biryani, khichadi, and rice-based dishes.</p>
+                                <div class="product-details">
+                                    <h5>Key Ingredients:</h5>
+                                    <ul>
+                                        <li>Cumin & Fennel Seeds</li>
+                                        <li>Nutmeg & Cloves</li>
+                                        <li>Star Anise & Cinnamon</li>
+                                        <li>Cardamom & Bay Leaf</li>
+                                    </ul>
+                                </div>
+                                <div class="price">₹195/200g</div>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#biryaniMasalaModal">
+                                    View More Information
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chicken Masala -->
+                    <div class="col-md-4">
+                        <div class="product-card h-100">
+                            <img src="../images/products/chicken-masala.jpg" class="card-img-top" alt="Chicken Masala">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken Masala</h5>
+                                <div class="spice-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="card-text">Versatile blend for curries, tandoori, and grilled chicken dishes.</p>
+                                <div class="product-details">
+                                    <h5>Key Ingredients:</h5>
+                                    <ul>
+                                        <li>Cumin & Fennel Seeds</li>
+                                        <li>Cloves & Star Anise</li>
+                                        <li>Cinnamon & Cardamom</li>
+                                        <li>Bay Leaf & Coriander</li>
+                                    </ul>
+                                </div>
+                                <div class="price">₹190/200g</div>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#chickenMasalaModal">
+                                    View More Information
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mungvadi -->
+                    <div class="col-md-4">
+                        <div class="product-card h-100">
+                            <img src="../images/products/mungvadi.jpg" class="card-img-top" alt="Mungvadi">
+                            <div class="card-body">
+                                <h5 class="card-title">Mungvadi</h5>
+                                <div class="spice-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="card-text">Unleash the authentic flavors of India with this culinary gem crafted from sun-kissed mung dal and an aromatic blend of spices.</p>
+                                <div class="product-details">
+                                    <h5>Key Ingredients:</h5>
+                                    <ul>
+                                        <li>Mungdal & Chilli Powder</li>
+                                        <li>Coriander & Garlic</li>
+                                        <li>Cumin Seeds & Turmeric</li>
+                                        <li>Asafoetida & Salt</li>
+                                    </ul>
+                                </div>
+                                <div class="price">₹80/100g</div>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#mungvadiModal">
+                                    View More Information
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kitchen King -->
+                    <div class="col-md-4">
+                        <div class="product-card h-100">
+                            <img src="../images/products/Kitchen-king.jpg" class="card-img-top" alt="Kitchen King">
+                            <div class="card-body">
+                                <h5 class="card-title">Kitchen King Masala</h5>
+                                <div class="spice-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="card-text">A versatile blend for all-purpose Indian cooking, enhancing flavor and aroma in every dish.</p>
+                                <div class="product-details">
+                                    <h5>Key Ingredients:</h5>
+                                    <ul>
+                                        <li>Coriander & Cumin</li>
+                                        <li>Turmeric & Chilli</li>
+                                        <li>Black Pepper & Cloves</li>
+                                        <li>Cardamom & Bay Leaf</li>
+                                    </ul>
+                                </div>
+                                <div class="price">₹185/200g</div>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#kitchenKingModal">
+                                    View More Information
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pav Bhaji Masala -->
+                    <div class="col-md-4">
+                        <div class="product-card h-100">
+                            <img src="../images/products/pav-bhaji-masala.jpg" class="card-img-top" alt="Pav Bhaji Masala">
+                            <div class="card-body">
+                                <h5 class="card-title">Pav Bhaji Masala</h5>
+                                <div class="spice-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="card-text">Classic Mumbai-style blend for authentic, flavorful Pav Bhaji and street food dishes.</p>
+                                <div class="product-details">
+                                    <h5>Key Ingredients:</h5>
+                                    <ul>
+                                        <li>Coriander & Cumin</li>
+                                        <li>Chilli & Fennel</li>
+                                        <li>Black Pepper & Cloves</li>
+                                        <li>Dry Mango & Turmeric</li>
+                                    </ul>
+                                </div>
+                                <div class="price">₹160/200g</div>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#pavBhajiMasalaModal">
+                                    View More Information
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Onion-Garlic Masala -->
+                    <div class="col-md-4">
+                        <div class="product-card h-100">
+                            <img src="../images/products/kaanda-lassun.jpg" class="card-img-top" alt="Onion-Garlic Masala">
+                            <div class="card-body">
+                                <h5 class="card-title">Onion-Garlic Masala</h5>
+                                <div class="spice-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="card-text">Aromatic blend of onion and garlic, perfect for curries, gravies, and everyday cooking.</p>
+                                <div class="product-details">
+                                    <h5>Key Ingredients:</h5>
+                                    <ul>
+                                        <li>Onion & Garlic</li>
+                                        <li>Coriander & Chilli</li>
+                                        <li>Cumin & Turmeric</li>
+                                        <li>Salt & Oil</li>
+                                    </ul>
+                                </div>
+                                <div class="price">₹165/200g</div>
+                                <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#onionGarlicMasalaModal">
+                                    View More Information
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End new cards -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Individual Spices -->
+    <section class="individual-spices">
+        <div class="container">
+            <h2 class="section-title">Individual Spices</h2>
+            <div class="spice-grid">
+                <!-- Turmeric Powder -->
+                <div class="spice-tile">
+                    <div class="spice-image">
+                        <img src="../images/products/turmeric-powder.jpg" alt="Turmeric Powder">
+                    </div>
+                    <div class="spice-content">
+                        <h4>Turmeric Powder (Haldi Powder)</h4>
+                        <div class="spice-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Pure and natural organic turmeric powder, rich in curcumin.</p>
+                        <div class="spice-footer">
+                            <span class="price">₹140/200g</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chilli Powder -->
+                <div class="spice-tile">
+                    <div class="spice-image">
+                        <img src="../images/products/chilli-powder.jpg" alt="Chilli Powder">
+                    </div>
+                    <div class="spice-content">
+                        <h4>Chilli Powder (Mirchi Powder)</h4>
+                        <div class="spice-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Premium quality red chilli powder for authentic heat and flavor.</p>
+                        <div class="spice-footer">
+                            <span class="price">₹115/200g</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Coriander Powder -->
+                <div class="spice-tile">
+                    <div class="spice-image">
+                        <img src="../images/products/dhana-powder.jpg" alt="Dhana Powder">
+                    </div>
+                    <div class="spice-content">
+                        <h4>Coriander Powder (Dhana Powder)</h4>
+                        <div class="spice-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Fresh and aromatic coriander powder for authentic Indian flavors.</p>
+                        <div class="spice-footer">
+                            <span class="price">₹115/200g</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spice Details Modal -->
+    <div class="spice-modal" id="spiceModal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <!-- Content will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Spice Information Modals -->
+    <!-- Garam Masala Modal -->
+    <div class="modal fade" id="garamMasalaModal" tabindex="-1" aria-labelledby="garamMasalaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="garamMasalaModalLabel">Garam Masala - Detailed Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/products/garam-masala.jpg" class="img-fluid rounded mb-4" alt="Garam Masala">
+                    <div class="content-wrapper">
+                        <h4>About This Blend</h4>
+                        <p>Our Garam Masala is a traditional blend of warming spices that adds depth and complexity to your dishes. Each spice is carefully selected and roasted to perfection before being ground together.</p>
+                        <h4>Complete Ingredients</h4>
+                        <ul>
+                            <li>Chilli</li>
+                            <li>Coconut</li>
+                            <li>Black pepper</li>
+                            <li>Cumin seeds</li>
+                            <li>Cloves</li>
+                            <li>Mace</li>
+                            <li>Black stone flower</li>
+                            <li>Star anise</li>
+                            <li>Cinnamon</li>
+                            <li>Black cardamom</li>
+                            <li>Green cardamom</li>
+                            <li>Bay leaf</li>
+                            <li>Indian rose chestnut</li>
+                            <li>Tailed pepper</li>
+                            <li>Asafoetida</li>
+                            <li>Coriander</li>
+                            <li>Turmeric</li>
+                            <li>Dry ginger</li>
+                            <li>Onion</li>
+                            <li>Salt</li>
+                            <li>Oil</li>
+                        </ul>
+                        <h4>Fun Facts</h4>
+                        <ul>
+                            <li>The name "Garam Masala" means "hot spice mix" in Hindi</li>
+                            <li>Each family in India has their own unique recipe</li>
+                            <li>Traditionally made fresh for each use</li>
+                            <li>Contains warming spices that help digestion</li>
+                        </ul>
+                        <h4>Best Used In</h4>
+                        <ul>
+                            <li>Curries and gravies</li>
+                            <li>Rice dishes</li>
+                            <li>Marinades</li>
+                            <li>Soups and stews</li>
+                        </ul>
+                        <h4>Storage Instructions</h4>
+                        <p>Store in a cool, dry place away from direct sunlight. Keep in an airtight container for maximum freshness.</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Biryani Masala Modal -->
+    <div class="modal fade" id="biryaniMasalaModal" tabindex="-1" aria-labelledby="biryaniMasalaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="biryaniMasalaModalLabel">Biryani Masala - Detailed Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/products/biryani-masala.jpg" class="img-fluid rounded mb-4" alt="Biryani Masala">
+                    <div class="content-wrapper">
+                        <h4>About This Blend</h4>
+                        <p>Our Biryani Masala is specially crafted to create the perfect aromatic biryani. The blend of spices creates layers of flavor that make your biryani truly special.</p>
+                        <h4>Complete Ingredients</h4>
+                        <ul>
+                            <li>Cumin seeds</li>
+                            <li>Fennel seeds</li>
+                            <li>Nutmeg</li>
+                            <li>Cloves</li>
+                            <li>Mace</li>
+                            <li>Black stone flower</li>
+                            <li>Star anise</li>
+                            <li>Cinnamon</li>
+                            <li>Black cardamom</li>
+                            <li>Green cardamom</li>
+                            <li>Bay leaf</li>
+                            <li>Asafoetida</li>
+                            <li>Coriander</li>
+                            <li>Turmeric</li>
+                            <li>Chilli</li>
+                            <li>Black pepper</li>
+                            <li>Salt</li>
+                            <li>Oil</li>
+                        </ul>
+                        <h4>Fun Facts</h4>
+                        <ul>
+                            <li>Biryani originated in the royal kitchens of the Mughal Empire</li>
+                            <li>Each region in India has its own unique biryani style</li>
+                            <li>The word "biryani" comes from the Persian word "birian"</li>
+                            <li>Traditionally cooked in sealed pots to trap the aromas</li>
+                        </ul>
+                        <h4>Best Used In</h4>
+                        <ul>
+                            <li>Chicken Biryani</li>
+                            <li>Vegetable Biryani</li>
+                            <li>Pulao</li>
+                            <li>Rice-based dishes</li>
+                        </ul>
+                        <h4>Storage Instructions</h4>
+                        <p>Store in a cool, dry place away from direct sunlight. Keep in an airtight container for maximum freshness.</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chicken Masala Modal -->
+    <div class="modal fade" id="chickenMasalaModal" tabindex="-1" aria-labelledby="chickenMasalaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="chickenMasalaModalLabel">Chicken Masala - Detailed Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/products/chicken-masala.jpg" class="img-fluid rounded mb-4" alt="Chicken Masala">
+                    <div class="content-wrapper">
+                        <h4>About This Blend</h4>
+                        <p>Our Chicken Masala is a versatile blend that brings out the best in chicken dishes. Whether you're making curry, tandoori, or grilled chicken, this masala adds the perfect touch of flavor.</p>
+                        <h4>Complete Ingredients</h4>
+                        <ul>
+                            <li>Cumin Seeds</li>
+                            <li>Fennel Seeds</li>
+                            <li>Black Peppercorns</li>
+                            <li>Cloves</li>
+                            <li>Star Anise</li>
+                            <li>Cinnamon</li>
+                            <li>Cardamom</li>
+                            <li>Bay Leaves</li>
+                            <li>Coriander Seeds</li>
+                        </ul>
+                        <h4>Fun Facts</h4>
+                        <ul>
+                            <li>Chicken masala varies by region in India</li>
+                            <li>Some recipes include over 20 different spices</li>
+                            <li>Traditionally roasted before grinding</li>
+                            <li>Each spice is added at different stages of cooking</li>
+                        </ul>
+                        <h4>Best Used In</h4>
+                        <ul>
+                            <li>Chicken Curry</li>
+                            <li>Tandoori Chicken</li>
+                            <li>Grilled Chicken</li>
+                            <li>Chicken Biryani</li>
+                        </ul>
+                        <h4>Storage Instructions</h4>
+                        <p>Store in a cool, dry place away from direct sunlight. Keep in an airtight container for maximum freshness.</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mungvadi Modal -->
+    <div class="modal fade" id="mungvadiModal" tabindex="-1" aria-labelledby="mungvadiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mungvadiModalLabel">Mungvadi - Detailed Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/products/mungvadi.jpg" class="img-fluid rounded mb-4" alt="Mungvadi">
+                    <div class="content-wrapper">
+                        <h4>About This Blend</h4>
+                        <p>Unleash the authentic flavors of India with Mungvadi—a culinary gem crafted from sun-kissed mung dal and an aromatic blend of spices. Each bite of these protein-rich mungvadis delivers a symphony of taste, featuring the gentle warmth of chili powder, the earthy notes of coriander and cumin, the pungency of garlic, and a hint of turmeric and asafoetida, all harmonized with a touch of salt.</p>
+                        <h4>Complete Ingredients</h4>
+                        <ul>
+                            <li>Mungdal</li>
+                            <li>Chilli powder</li>
+                            <li>Coriander</li>
+                            <li>Garlic</li>
+                            <li>Cumin seeds</li>
+                            <li>Turmeric</li>
+                            <li>Asafoetida</li>
+                            <li>Salt</li>
+                        </ul>
+                        <h4>Fun Facts</h4>
+                        <ul>
+                            <li>Mungvadi is a traditional Maharashtrian delicacy</li>
+                            <li>Rich in protein and fiber</li>
+                            <li>Often used as a meat substitute in vegetarian dishes</li>
+                        </ul>
+                        <h4>Best Used In</h4>
+                        <ul>
+                            <li>Traditional Indian Curries</li>
+                            <li>Vegetable Dishes</li>
+                            <li>Gravy Preparations</li>
+                            <li>Rice Dishes</li>
+                        </ul>
+                        <h4>Storage Instructions</h4>
+                        <p>Store in a cool, dry place away from direct sunlight. Keep in an airtight container for maximum freshness.</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kitchen King Modal -->
+    <div class="modal fade" id="kitchenKingModal" tabindex="-1" aria-labelledby="kitchenKingModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="kitchenKingModalLabel">Kitchen King Masala - Detailed Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/products/Kitchen-king.jpg" class="img-fluid rounded mb-4" alt="Kitchen King">
+                    <div class="content-wrapper">
+                        <h4>About This Blend</h4>
+                        <p>Kitchen King is a versatile all-purpose spice blend that enhances the flavor and aroma of a wide variety of Indian dishes. Carefully crafted with a balanced mix of premium spices, it brings out the best in your everyday cooking.</p>
+                        <h4>Complete Ingredients</h4>
+                        <ul>
+                            <li>Coriander</li>
+                            <li>Cumin</li>
+                            <li>Turmeric</li>
+                            <li>Chilli</li>
+                            <li>Black Pepper</li>
+                            <li>Cloves</li>
+                            <li>Cardamom</li>
+                            <li>Bay Leaf</li>
+                            <li>Other Spices</li>
+                        </ul>
+                        <h4>Fun Facts</h4>
+                        <ul>
+                            <li>Kitchen King is often called the "king of all masalas" for its versatility.</li>
+                            <li>It is a staple in many Indian households for quick and flavorful meals.</li>
+                            <li>Perfect for both vegetarian and non-vegetarian dishes.</li>
+                        </ul>
+                        <h4>Best Used In</h4>
+                        <ul>
+                            <li>Mixed Vegetable Curry</li>
+                            <li>Paneer Dishes</li>
+                            <li>Gravies and Sabzis</li>
+                            <li>Pulao and Rice Dishes</li>
+                        </ul>
+                        <h4>Storage Instructions</h4>
+                        <p>Store in a cool, dry place away from direct sunlight. Keep in an airtight container for maximum freshness.</p>
+                        
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pav Bhaji Masala Modal -->
+    <div class="modal fade" id="pavBhajiMasalaModal" tabindex="-1" aria-labelledby="pavBhajiMasalaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pavBhajiMasalaModalLabel">Pav Bhaji Masala - Detailed Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/products/pav-bhaji-masala.jpg" class="img-fluid rounded mb-4" alt="Pav Bhaji Masala">
+                    <div class="content-wrapper">
+                        <h4>About This Blend</h4>
+                        <p>Our Pav Bhaji Masala is a classic Mumbai-style blend, expertly crafted to bring out the authentic street food flavor in your homemade pav bhaji. This masala is a harmonious mix of spices that delivers a rich, tangy, and slightly spicy taste, perfect for the iconic dish and other snacks.</p>
+                        <h4>Complete Ingredients</h4>
+                        <ul>
+                            <li>Coriander</li>
+                            <li>Cumin</li>
+                            <li>Chilli</li>
+                            <li>Fennel</li>
+                            <li>Black Pepper</li>
+                            <li>Cloves</li>
+                            <li>Dry Mango</li>
+                            <li>Turmeric</li>
+                            <li>Salt</li>
+                            <li>Other Spices</li>
+                        </ul>
+                        <h4>Fun Facts</h4>
+                        <ul>
+                            <li>Pav Bhaji originated as a quick, nutritious meal for Mumbai's textile workers in the 1850s.</li>
+                            <li>"Pav" means bread and "Bhaji" means vegetable dish in Marathi.</li>
+                            <li>Now a beloved street food across India and worldwide.</li>
+                        </ul>
+                        <h4>Best Used In</h4>
+                        <ul>
+                            <li>Pav Bhaji</li>
+                            <li>Tawa Pulao</li>
+                            <li>Masala Pav</li>
+                            <li>Stuffed Buns & Sandwiches</li>
+                        </ul>
+                        <h4>Storage Instructions</h4>
+                        <p>Store in a cool, dry place away from direct sunlight. Keep in an airtight container for maximum freshness.</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Onion-Garlic Masala Modal -->
+    <div class="modal fade" id="onionGarlicMasalaModal" tabindex="-1" aria-labelledby="onionGarlicMasalaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="onionGarlicMasalaModalLabel">Onion-Garlic Masala - Detailed Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../images/products/kaanda-lassun.jpg" class="img-fluid rounded mb-4" alt="Onion-Garlic Masala">
+                    <div class="content-wrapper">
+                        <h4>About This Blend</h4>
+                        <p>Our Onion-Garlic Masala is a robust, aromatic blend that forms the heart of many Indian curries and gravies. It combines the deep flavors of slow-roasted onions and garlic with a medley of spices, making it a versatile base for both vegetarian and non-vegetarian dishes.</p>
+                        <h4>Complete Ingredients</h4>
+                        <ul>
+                            <li>Onion</li>
+                            <li>Garlic</li>
+                            <li>Coriander</li>
+                            <li>Chilli</li>
+                            <li>Cumin</li>
+                            <li>Turmeric</li>
+                            <li>Salt</li>
+                            <li>Oil</li>
+                            <li>Other Spices</li>
+                        </ul>
+                        <h4>Fun Facts</h4>
+                        <ul>
+                            <li>Known as "Kaanda-Lassun Masala" in Maharashtra.</li>
+                            <li>Essential for classic Maharashtrian dishes like Bharli Vangi and Misal.</li>
+                            <li>Can be used as a marinade or curry base.</li>
+                        </ul>
+                        <h4>Best Used In</h4>
+                        <ul>
+                            <li>Curries & Gravies</li>
+                            <li>Stuffed Vegetables</li>
+                            <li>Marinades</li>
+                            <li>Rice Dishes</li>
+                        </ul>
+                        <h4>Storage Instructions</h4>
+                        <p>Store in a cool, dry place away from direct sunlight. Keep in an airtight container for maximum freshness.</p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Indrayani Naturals</h4>
+                    <p>Our Marathi Spices are handcrafted with the finest local ingredients, capturing the rich heritage and bold flavors that define our region.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="important-link">Home</a></li>
+                        <li><a href="products.html" class="important-link">Products</a></li>
+                        <li><a href="recipes.html" class="important-link">Recipes</a></li>
+                        <li><a href="contact.html" class="important-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Dighi, Pune, India</p>
+                        <p><i class="fas fa-phone"></i> +91-9545100046 (WhatsApp)</p>
+                        <p><i class="fas fa-envelope"></i> indrayaninaturals@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i> contact@indrayaninaturals.com</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/indrayaninaturals" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919545100046" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2025 SSAPTECH Solutions LLP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Home Button -->
+    <a href="../index.html" class="home-button">
+        <i class="fas fa-home"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+    <script src="../js/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Primary Meta Tags -->
+    <title>Spice Recipes | Indrayani Naturals</title>
+    <meta name="description" content="Discover authentic Indian recipes using our premium spice blends. From biryani to curry, learn to cook with Indrayani Naturals spices.">
+    <meta name="keywords" content="Indian recipes, spice recipes, biryani recipe, curry recipe, dal recipe, chutney recipe">
+    <meta name="author" content="Indrayani Naturals">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/recipes.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading">
+        <div class="loading-bar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo.jpg" alt="Indrayani Naturals Logo">
+                <span>Indrayani Naturals</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="recipes.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://md-33.webhostbox.net:2096/">Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="btn btn-link nav-link" aria-label="Toggle dark/light mode">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-images">
+            <img class="hero-image active" data-src="../images/hero/recipes-hero.jpg">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Authentic Maharashtrian Recipes</h1>
+                <p class="lead">Discover the rich flavors of Maharashtrian with our premium spice blends</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Recipes Section -->
+    <main class="container my-5">
+        <div class="row g-4">
+            <!-- Pav Bhaji Recipe -->
+            <div class="col-lg-6">
+                <div class="card h-100 recipe-card">
+                    <img src="../images/recipes/pav-bhaji.jpg" class="card-img-top" alt="Pav Bhaji">
+                    <div class="card-body">
+                        <h3 class="card-title">Classic Pav Bhaji</h3>
+                        <p class="card-text">A delicious medley of mashed vegetables and spices, served with soft, buttery pav. A Mumbai street food classic.</p>
+                        <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#recipeModal1">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shev Bhaji Recipe -->
+            <div class="col-lg-6">
+                <div class="card h-100 recipe-card">
+                    <img src="../images/recipes/shev-bhaji.jpg" class="card-img-top" alt="Shev Bhaji">
+                    <div class="card-body">
+                        <h3 class="card-title">Spicy Shev Bhaji</h3>
+                        <p class="card-text">A spicy and savory curry made with gram flour noodles (sev) in a traditional Maharashtrian gravy.</p>
+                         <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#recipeModal2">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Biryani Recipe -->
+            <div class="col-lg-6">
+                <div class="card h-100 recipe-card">
+                    <img src="../images/recipes/biryani.jpg" class="card-img-top" alt="Biryani">
+                    <div class="card-body">
+                        <h3 class="card-title">Aromatic Biryani</h3>
+                        <p class="card-text">A fragrant and flavorful rice dish with layers of marinated meat or vegetables, spices, and herbs.</p>
+                         <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#recipeModal3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Veg Pulav Recipe -->
+            <div class="col-lg-6">
+                <div class="card h-100 recipe-card">
+                    <img src="../images/recipes/veg-pulav.jpg" class="card-img-top" alt="Veg Pulav">
+                    <div class="card-body">
+                        <h3 class="card-title">Vegetable Pulav</h3>
+                        <p class="card-text">A simple, one-pot rice dish made with mixed vegetables, whole spices, and fragrant basmati rice.</p>
+                         <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#recipeModal4">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Misal Pav Recipe -->
+            <div class="col-lg-6">
+                <div class="card h-100 recipe-card">
+                    <img src="../images/recipes/misal-pav.jpg" class="card-img-top" alt="Misal Pav">
+                    <div class="card-body">
+                        <h3 class="card-title">Authentic Misal Pav</h3>
+                        <p class="card-text">A popular Maharashtrian dish consisting of a spicy curry of sprouts, topped with farsan, onions, and lemon.</p>
+                         <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#recipeModal5">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mutton Bhaji Recipe -->
+            <div class="col-lg-6">
+                <div class="card h-100 recipe-card">
+                    <img src="../images/recipes/mutton-bhaji.jpg" class="card-img-top" alt="Mutton Bhaji">
+                    <div class="card-body">
+                        <h3 class="card-title">Mutton Bhaji</h3>
+                        <p class="card-text">A spicy, rustic Maharashtrian-style mutton curry, slow-cooked with aromatic spices and fresh herbs. Perfect with bhakri or rice.</p>
+                        <a href="#" class="btn btn-primary mt-auto" data-bs-toggle="modal" data-bs-target="#recipeModal6">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Modals for Recipes -->
+    <!-- Pav Bhaji Modal -->
+    <div class="modal fade" id="recipeModal1" tabindex="-1" aria-labelledby="recipeModal1Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeModal1Label">Classic Pav Bhaji</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/recipes/pav-bhaji.jpg" class="img-fluid rounded mb-4" alt="Pav Bhaji">
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>2 tbsp butter</li>
+                <li>1 onion, finely chopped</li>
+                <li>1 tbsp ginger-garlic paste</li>
+                <li>2 tomatoes, pureed</li>
+                <li>2 potatoes, boiled and mashed</li>
+                <li>1 cup mixed vegetables (peas, carrots, cauliflower), boiled and mashed</li>
+                <li>2 tbsp Pav Bhaji Masala</li>
+                <li>Salt to taste</li>
+                <li>8 pav (bread rolls)</li>
+                <li>Fresh coriander for garnish</li>
+            </ul>
+            <h5>Method:</h5>
+            <ol>
+                <li>Heat butter in a large pan. Sauté onions and ginger-garlic paste.</li>
+                <li>Add tomato puree and cook until oil separates.</li>
+                <li>Add Pav Bhaji Masala and salt. Mix well.</li>
+                <li>Add mashed potatoes and mixed vegetables. Mix and mash everything together.</li>
+                <li>Add a little water to get the desired consistency. Simmer for 10 minutes.</li>
+                <li>Toast the pav with butter and serve hot with the bhaji, garnished with coriander.</li>
+            </ol>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shev Bhaji Modal -->
+    <div class="modal fade" id="recipeModal2" tabindex="-1" aria-labelledby="recipeModal2Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeModal2Label">Spicy Shev Bhaji</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/recipes/shev-bhaji.jpg" class="img-fluid rounded mb-4" alt="Shev Bhaji">
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>2 tbsp oil</li>
+                <li>1 tsp mustard seeds</li>
+                <li>1 onion, finely chopped</li>
+                <li>1 tbsp ginger-garlic paste</li>
+                <li>1 tomato, pureed</li>
+                <li>2 tbsp Shev Bhaji Masala</li>
+                <li>1 cup water</li>
+                <li>1 cup sev (thick gram flour noodles)</li>
+                <li>Salt to taste</li>
+                <li>Fresh coriander for garnish</li>
+            </ul>
+            <h5>Method:</h5>
+            <ol>
+                <li>Heat oil in a pan. Add mustard seeds. When they splutter, add onions and sauté until golden.</li>
+                <li>Add ginger-garlic paste and cook for a minute.</li>
+                <li>Add tomato puree and cook until oil separates.</li>
+                <li>Add Shev Bhaji Masala and salt. Mix well.</li>
+                <li>Add water and bring the gravy to a boil.</li>
+                <li>Just before serving, add the sev to the gravy. Garnish with coriander and serve immediately.</li>
+            </ol>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Biryani Modal -->
+    <div class="modal fade" id="recipeModal3" tabindex="-1" aria-labelledby="recipeModal3Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeModal3Label">Aromatic Biryani</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/recipes/biryani.jpg" class="img-fluid rounded mb-4" alt="Biryani">
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>500g chicken or mixed vegetables</li>
+                <li>2 cups basmati rice, soaked for 30 mins</li>
+                <li>1 cup plain yogurt</li>
+                <li>3 onions, thinly sliced and fried until golden</li>
+                <li>1 tbsp ginger-garlic paste</li>
+                <li>3 tbsp Biryani Masala</li>
+                <li>A pinch of saffron soaked in milk</li>
+                <li>Ghee or oil for cooking</li>
+                <li>Fresh mint and coriander leaves</li>
+            </ul>
+            <h5>Method:</h5>
+            <ol>
+                <li>Marinate chicken/vegetables with yogurt, ginger-garlic paste, Biryani Masala, and half the fried onions for at least 1 hour.</li>
+                <li>Cook the marinated mixture until it's almost done.</li>
+                <li>Parboil the soaked rice until it's 70% cooked. Drain it.</li>
+                <li>Layer the cooked mixture and rice in a heavy-bottomed pot. Top with remaining fried onions, saffron milk, mint, and coriander.</li>
+                <li>Cover and cook on low heat (dum) for 20-25 minutes.</li>
+                <li>Gently fluff the rice and serve hot with raita.</li>
+            </ol>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Veg Pulav Modal -->
+    <div class="modal fade" id="recipeModal4" tabindex="-1" aria-labelledby="recipeModal4Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeModal4Label">Vegetable Pulav</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/recipes/veg-pulav.jpg" class="img-fluid rounded mb-4" alt="Veg Pulav">
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>1.5 cups basmati rice, washed and soaked</li>
+                <li>2 tbsp ghee or oil</li>
+                <li>1 tsp cumin seeds</li>
+                <li>1 bay leaf, 2 cloves, 1-inch cinnamon stick</li>
+                <li>1 onion, sliced</li>
+                <li>1 tbsp ginger-garlic paste</li>
+                <li>2 cups mixed vegetables (carrots, peas, beans, potatoes)</li>
+                <li>1 tbsp Pulav Masala</li>
+                <li>3 cups water or vegetable broth</li>
+                <li>Salt to taste</li>
+            </ul>
+            <h5>Method:</h5>
+            <ol>
+                <li>Heat ghee/oil in a pot. Add cumin seeds and whole spices.</li>
+                <li>Add onions and sauté until translucent. Add ginger-garlic paste and cook for a minute.</li>
+                <li>Add mixed vegetables and sauté for 2-3 minutes.</li>
+                <li>Add Pulav Masala and salt. Stir well.</li>
+                <li>Drain the rice and add it to the pot. Sauté gently for a minute.</li>
+                <li>Add water or broth, bring to a boil, then cover and simmer until the rice is cooked and water is absorbed.</li>
+            </ol>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Misal Pav Modal -->
+    <div class="modal fade" id="recipeModal5" tabindex="-1" aria-labelledby="recipeModal5Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeModal5Label">Authentic Misal Pav</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/recipes/misal-pav.jpg" class="img-fluid rounded mb-4" alt="Misal Pav">
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>2 cups mixed sprouts (matki/moth beans), boiled</li>
+                <li>2 onions, finely chopped</li>
+                <li>1 tomato, pureed</li>
+                <li>1 tbsp ginger-garlic paste</li>
+                <li>3 tbsp Misal Masala</li>
+                <li>Oil, mustard seeds, curry leaves</li>
+                <li>For serving: Farsan, chopped onions, coriander, lemon wedges, and pav</li>
+            </ul>
+            <h5>Method:</h5>
+            <ol>
+                <li>Heat oil, add mustard seeds and curry leaves. Add chopped onions and sauté until golden.</li>
+                <li>Add ginger-garlic paste and cook for a minute. Add tomato puree and cook well.</li>
+                <li>Add Misal Masala and cook for another minute.</li>
+                <li>Add the boiled sprouts and 3 cups of water. Bring to a boil and simmer for 15 minutes. This is the 'usal'.</li>
+                <li>A red oily layer called 'tari' or 'kat' will float on top.</li>
+                <li>To serve, place the usal in a bowl, top with farsan, chopped onions, and coriander. Serve with the 'tari' on the side and pav.</li>
+            </ol>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mutton Bhaji Modal -->
+    <div class="modal fade" id="recipeModal6" tabindex="-1" aria-labelledby="recipeModal6Label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeModal6Label">Mutton Bhaji</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/recipes/mutton-bhaji.jpg" class="img-fluid rounded mb-4" alt="Mutton Bhaji">
+            <h5>Ingredients:</h5>
+            <ul>
+                <li>500g mutton, bone-in, cut into pieces</li>
+                <li>2 tbsp oil</li>
+                <li>2 onions, finely chopped</li>
+                <li>1 large tomato, chopped</li>
+                <li>2 tbsp ginger-garlic paste</li>
+                <li>2-3 green chilies, chopped</li>
+                <li>1/2 cup fresh coriander, chopped</li>
+                <li>1/2 cup fresh coconut, grated (optional)</li>
+                <li>1 tsp turmeric powder</li>
+                <li>2 tsp red chili powder</li>
+                <li>2 tbsp Indrayani Garam Masala (or any Maharashtrian goda masala)</li>
+                <li>1 tsp coriander powder</li>
+                <li>1 tsp cumin powder</li>
+                <li>Salt to taste</li>
+                <li>Water as needed</li>
+                <li>Fresh coriander for garnish</li>
+            </ul>
+            <h5>Method:</h5>
+            <ol>
+                <li>Heat oil in a heavy-bottomed pan. Add onions and sauté until golden brown.</li>
+                <li>Add ginger-garlic paste and green chilies. Sauté for a minute until fragrant.</li>
+                <li>Add chopped tomatoes and cook until soft.</li>
+                <li>Add turmeric, red chili powder, coriander powder, cumin powder, and salt. Mix well.</li>
+                <li>Add mutton pieces and sear on high heat for 3-4 minutes.</li>
+                <li>Add garam masala and grated coconut (if using). Mix and cook for 2 minutes.</li>
+                <li>Add enough water to cover the mutton. Cover and cook on low heat until the mutton is tender (about 45-60 minutes), stirring occasionally. Add more water if needed.</li>
+                <li>Once the mutton is cooked and the gravy is thick, add chopped coriander and mix well.</li>
+                <li>Serve hot with bhakri, chapati, or steamed rice. Garnish with more fresh coriander.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Indrayani Naturals</h4>
+                    <p>Our Marathi Spices are handcrafted with the finest local ingredients, capturing the rich heritage and bold flavors that define our region.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="important-link">Home</a></li>
+                        <li><a href="products.html" class="important-link">Products</a></li>
+                        <li><a href="recipes.html" class="important-link">Recipes</a></li>
+                        <li><a href="contact.html" class="important-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact Us</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Dighi, Pune, India</p>
+                        <p><i class="fas fa-phone"></i> +91-9545100046 (WhatsApp)</p>
+                        <p><i class="fas fa-envelope"></i> indrayaninaturals@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i> contact@indrayaninaturals.com</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/indrayaninaturals" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919545100046" target="_blank" rel="noopener" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2025 SSAPTECH Solutions LLP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Home Button -->
+    <a href="../index.html" class="home-button">
+        <i class="fas fa-home"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+    <script src="../js/recipes.js"></script>
+</body>
+</html>

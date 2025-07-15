@@ -1,0 +1,233 @@
+/* =====================
+   Recipes Page Styles
+   ===================== */
+.recipes-hero {
+    min-height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/recipes-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+    position: relative;
+}
+.recipes-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.recipes-hero p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* =====================
+   Recipes Grid
+   ===================== */
+.recipes-grid {
+    padding: 5rem 0;
+    background-color: var(--light-bg);
+}
+.recipe-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: var(--transition);
+    box-shadow: var(--box-shadow);
+    height: 100%;
+}
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+    border-color: var(--primary-color);
+}
+.recipe-card .card-img-top {
+    height: 550px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--primary-color);
+}
+.recipe-card .card-body {
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+}
+.recipe-card .card-title {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+.recipe-card .card-text {
+    color: var(--light-text);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.recipe-card .recipe-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: var(--light-text);
+    font-size: 0.9rem;
+}
+.recipe-card .recipe-meta i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+.recipe-card .btn-primary {
+    width: 100%;
+    padding: 0.8rem;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+.recipe-card .btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+/* =====================
+   Recipe Categories
+   ===================== */
+.recipe-categories {
+    padding: 3rem 0;
+    background-color: var(--white);
+}
+.category-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: var(--card-bg);
+    transition: var(--transition);
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+}
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+.category-card i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+.category-card h3 {
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.category-card p {
+    color: var(--light-text);
+    margin-bottom: 0;
+}
+
+/* =====================
+   Animations
+   ===================== */
+.recipes-grid .col-md-4 {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* =====================
+   Hero Section (Override)
+   ===================== */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero/recipes-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* =====================
+   Recipe Details Styling
+   ===================== */
+.recipe-details {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+.recipe-details h5 {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.recipe-details h5 i {
+    color: var(--primary-color);
+}
+.recipe-details ul,
+.recipe-details ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.recipe-details li {
+    color: var(--light-text);
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+.recipe-details .ingredients {
+    margin-bottom: 1.5rem;
+}
+.recipe-details .method {
+    margin-bottom: 1.5rem;
+}
+.recipe-details .tips {
+    background-color: var(--card-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--primary-color);
+}
+.recipe-details .tips h5 {
+    color: var(--text-color);
+}
+.recipe-details .tips li {
+    color: var(--light-text);
+}
+
+/* =====================
+   Dark Mode Adjustments
+   ===================== */
+[data-theme="dark"] .recipe-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+[data-theme="dark"] .recipe-card .card-title {
+    color: var(--text-on-dark);
+}
+[data-theme="dark"] .recipe-card .card-text {
+    color: var(--light-text);
+}
+[data-theme="dark"] .category-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+[data-theme="dark"] .category-card h3 {
+    color: var(--text-on-dark);
+}
+[data-theme="dark"] .category-card p {
+    color: var(--light-text);
+}
+[data-theme="dark"] .recipe-details h5 {
+    color: var(--text-on-dark);
+}
+[data-theme="dark"] .recipe-details li {
+    color: var(--light-text);
+}
+[data-theme="dark"] .recipe-details .tips {
+    background-color: var(--card-bg);
+}
+[data-theme="dark"] .recipe-details .tips h5 {
+    color: var(--text-on-dark);
+} 
