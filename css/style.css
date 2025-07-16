@@ -87,9 +87,10 @@ body {
 img {
     max-width: 100%;
     height: auto;
-            backface-visibility: hidden;
-            transform: translateZ(0);
-    font-smoothing: subpixel-antialiased;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
     object-fit: contain;
@@ -114,7 +115,7 @@ img {
    ===================== */
 .navbar {
     background-color: var(--primary-color);
-    padding: 2rem 0;
+    padding: 1rem 0;
     box-shadow: var(--shadow);
 }
 .navbar.scrolled {
@@ -170,12 +171,15 @@ img {
     align-items: center;
     gap: 1rem;
     font-size: 2rem;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .navbar-brand img {
-    height: 80px;
+    height: 100px;
     width: auto;
     border-radius: 8px;
+    margin-left: 0;
 }
 
 .navbar-brand span {
@@ -1936,6 +1940,10 @@ section h2::after {
 .navbar.scrolled {
     background-color: var(--primary-color);
     box-shadow: var(--shadow);
+}
+
+.navbar .container {
+    padding-left: 0 !important;
 }
 
 /* Update card styles */
