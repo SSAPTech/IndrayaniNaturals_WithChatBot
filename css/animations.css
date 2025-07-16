@@ -211,17 +211,8 @@
 .card:nth-child(6) { animation-delay: 0.6s; }
 
 /* =====================
-   Navigation Animation
+   Navigation Animation - Removed to prevent conflicts with style.css
    ===================== */
-.nav-link::after {
-    animation: navUnderline 0.3s ease-out forwards;
-    animation-play-state: paused;
-}
-
-.nav-link:hover::after,
-.nav-link.active::after {
-    animation-play-state: running;
-}
 
 /* =====================
    Image Hover Effects
