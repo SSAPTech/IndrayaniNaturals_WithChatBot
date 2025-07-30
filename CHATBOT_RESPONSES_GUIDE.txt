@@ -1,0 +1,583 @@
+================================================================================
+                    INDRAYANI NATURALS AI CHATBOT RESPONSES GUIDE
+================================================================================
+
+This file contains all the keywords and responses that the AI Chatbot recognizes.
+Use this guide to test all chatbot functionality and understand its capabilities.
+
+================================================================================
+                                PRODUCT QUERIES
+================================================================================
+
+KEYWORDS: "product", "spice", "what do you sell", "offer"
+
+RESPONSE:
+🌟 **Our Spice Products:**
+
+• Garam Masala - ₹195/200g
+• Biryani Masala - ₹195/200g
+• Chicken Masala - ₹190/200g
+• Mungvadi - ₹80/100g
+• Kitchen King Masala - ₹185/200g
+• Pav Bhaji Masala - ₹160/200g
+• Onion-Garlic Masala - ₹165/200g
+
+All 100% natural and handcrafted!
+
+================================================================================
+                            SPECIFIC PRODUCT QUERIES
+================================================================================
+
+KEYWORDS: "garam masala"
+
+RESPONSE:
+🫘 **Garam Masala** - ₹195/200g
+
+Perfect for curries, rice dishes, and meat preparations.
+Key ingredients: Chilli, coconut, black pepper, cumin, cloves, mace, cardamom & cinnamon.
+
+Our signature blend that adds warmth to your dishes!
+
+-------------------------------------------------------------------------------
+
+KEYWORDS: "biryani masala"
+
+RESPONSE:
+🍚 **Biryani Masala** - ₹195/200g
+
+Perfect for biryani, khichadi, and rice dishes.
+Key ingredients: Cumin, fennel seeds, nutmeg, cloves, star anise, cinnamon, cardamom & bay leaf.
+
+Transform your rice dishes with this aromatic blend!
+
+-------------------------------------------------------------------------------
+
+KEYWORDS: "chicken masala"
+
+RESPONSE:
+🍗 **Chicken Masala** - ₹190/200g
+
+Perfect for chicken curries, tandoori, and grilled dishes.
+Key ingredients: Cumin, fennel seeds, cloves, star anise, cinnamon, cardamom, bay leaf & coriander.
+
+Make every chicken dish extraordinary!
+
+-------------------------------------------------------------------------------
+
+KEYWORDS: "mungvadi"
+
+RESPONSE:
+🫘 **Mungvadi** - ₹80/100g
+
+Perfect for traditional Maharashtrian dishes and vegetarian curries.
+Key ingredients: Mungdal, chilli powder, coriander, garlic, cumin, turmeric, asafoetida & salt.
+
+Experience authentic Indian flavors!
+
+-------------------------------------------------------------------------------
+
+KEYWORDS: "kitchen king masala"
+
+RESPONSE:
+👑 **Kitchen King Masala** - ₹185/200g
+
+The king of all masalas! Perfect for mixed vegetable dishes and complex curries.
+Key ingredients: Coriander, cumin, black pepper, cardamom, cinnamon, cloves, bay leaf & nutmeg.
+
+Adds royal flavor to any dish!
+
+-------------------------------------------------------------------------------
+
+KEYWORDS: "pav bhaji masala"
+
+RESPONSE:
+🍞 **Pav Bhaji Masala** - ₹160/200g
+
+Essential for authentic Pav Bhaji and street food dishes.
+Key ingredients: Coriander, cumin, black pepper, red chilli, turmeric, asafoetida & salt.
+
+Recreate street food magic at home!
+
+-------------------------------------------------------------------------------
+
+KEYWORDS: "onion garlic masala"
+
+RESPONSE:
+🧅 **Onion-Garlic Masala** - ₹165/200g
+
+Perfect base masala for most Indian dishes.
+Key ingredients: Onion powder, garlic powder, coriander, cumin, turmeric, red chilli & salt.
+
+The foundation of great Indian cooking!
+
+================================================================================
+                                PRICING QUERIES
+================================================================================
+
+KEYWORDS: "price", "cost", "how much", "rate"
+
+RESPONSE:
+💰 **Our Prices:**
+
+• Garam Masala - ₹195/200g
+• Biryani Masala - ₹195/200g
+• Chicken Masala - ₹190/200g
+• Kitchen King Masala - ₹185/200g
+• Mungvadi - ₹80/100g
+• Pav Bhaji Masala - ₹160/200g
+• Onion-Garlic Masala - ₹165/200g
+
+Bulk orders get special discounts!
+
+================================================================================
+                                RECIPE QUERIES
+================================================================================
+
+KEYWORDS: "recipe", "cook", "how to use", "dish"
+
+RESPONSE:
+👨‍🍳 **Recipe Ideas:**
+
+**Garam Masala:** Chicken Curry, Vegetable Pulao, Dal Tadka
+**Biryani Masala:** Chicken Biryani, Vegetable Biryani, Khichadi
+**Chicken Masala:** Tandoori Chicken, Chicken Curry, Grilled Chicken
+**Mungvadi:** Traditional Maharashtrian dishes, Lentil curries
+**Kitchen King:** Mixed Vegetable Curry, Paneer Dishes
+**Pav Bhaji:** Street-style Pav Bhaji, Vegetable Masala
+**Onion-Garlic:** Base for most curries, Gravy dishes
+
+Need a specific recipe? Just ask!
+
+================================================================================
+                            TRADITIONAL DISHES
+================================================================================
+
+KEYWORDS: "traditional", "maharashtrian", "regional", "authentic"
+
+RESPONSE:
+🏺 **Traditional Dishes:**
+
+**Maharashtrian Specialties:**
+• Misal Pav (Mungvadi + Pav Bhaji Masala)
+• Bharli Vangi (Kitchen King + Onion-Garlic)
+• Amti (Mungvadi + Garam Masala)
+• Varan Bhaat (Simple lentil rice)
+
+**North Indian Classics:**
+• Butter Chicken (Chicken Masala + Garam Masala)
+• Paneer Tikka (Kitchen King + Yogurt)
+• Dal Makhani (Garam Masala + Cream)
+
+**Street Food Favorites:**
+• Pav Bhaji (Pav Bhaji Masala)
+• Chole Bhature (Garam Masala + Kitchen King)
+• Dahi Puri (Onion-Garlic + Tamarind)
+
+Experience authentic regional flavors! 🍽️
+
+================================================================================
+                            SPICE SUBSTITUTES
+================================================================================
+
+KEYWORDS: "substitute", "alternative", "replace", "instead of"
+
+RESPONSE:
+🔄 **Spice Substitutes:**
+
+**Common Substitutions:**
+• Garam Masala: Mix of cinnamon, cardamom, cloves
+• Biryani Masala: Garam Masala + extra cardamom
+• Chicken Masala: Kitchen King + extra red chilli
+• Mungvadi: Mix of mung dal + basic spices
+
+**Flavor Alternatives:**
+• Warming: Cinnamon, Black Pepper
+• Aromatic: Cardamom, Bay Leaf
+• Spicy: Red Chilli, Black Pepper
+• Earthy: Cumin, Coriander
+
+**Pro Tip:** While substitutes work, nothing beats our authentic blends! 🌶️
+
+================================================================================
+                                CONTACT QUERIES
+================================================================================
+
+KEYWORDS: "contact", "phone", "email", "address", "reach"
+
+RESPONSE:
+📞 **Contact Us:**
+
+📍 Dighi, Pune, India
+📱 +91-9545100046 (WhatsApp)
+📧 indrayaninaturals@gmail.com
+📧 contact@indrayaninaturals.com
+📷 Instagram: @indrayaninaturals
+
+**Hours:** Monday-Friday 9 AM to 6 PM
+
+================================================================================
+                                COMPANY INFO
+================================================================================
+
+KEYWORDS: "company", "about", "who are you", "story"
+
+RESPONSE:
+🏢 **About Us:**
+
+We're a premium spice company bringing authentic Maharashtrian flavors to your kitchen.
+
+**Our Mission:** Make every dish a celebration with the true taste of Maharashtra.
+
+**What We Offer:**
+• 100% Natural ingredients
+• Traditional recipes
+• Hand-picked spices
+• No additives or preservatives
+
+Taste Naturals Heartbeat, One Spice at a Time! 🌶️
+
+================================================================================
+                                ORDER QUERIES
+================================================================================
+
+KEYWORDS: "order", "buy", "purchase", "shop"
+
+RESPONSE:
+🛒 **How to Order:**
+
+**Call/WhatsApp:** +91-9545100046
+**Email:** indrayaninaturals@gmail.com
+**Visit Store:** Dighi, Pune
+**Payment:** Online, COD, Bank transfer, UPI
+**Bulk Orders:** Special discounts available!
+
+================================================================================
+                                LOCATION QUERIES
+================================================================================
+
+KEYWORDS: "location", "where", "store", "address"
+
+RESPONSE:
+📍 **Our Location:**
+
+**Address:**
+Dighi, Pune, India
+
+**How to Find Us:**
+• Located in Dighi area of Pune
+• Easily accessible by road
+• Parking available
+• Google Maps location available
+
+**Store Hours:**
+Monday to Friday: 9 AM to 6 PM
+Saturday: 9 AM to 4 PM
+Sunday: Closed
+
+**Services:**
+• In-store shopping
+• Product consultation
+• Bulk order pickup
+• Recipe guidance
+
+Contact us for directions or to schedule a visit!
+
+================================================================================
+                                SOCIAL MEDIA
+================================================================================
+
+KEYWORDS: "social", "facebook", "instagram", "follow"
+
+RESPONSE:
+📱 **Follow Us:**
+
+**Instagram:** @indrayaninaturals
+Recipe videos, cooking tips, product updates
+
+**WhatsApp:** +91-9545100046
+Direct ordering, quick inquiries, bulk orders
+
+**Email:** indrayaninaturals@gmail.com
+Business inquiries, wholesale orders, feedback
+
+Stay connected for latest updates! 📷
+
+================================================================================
+                                HEALTH BENEFITS
+================================================================================
+
+KEYWORDS: "health", "benefit", "ayurvedic", "natural"
+
+RESPONSE:
+🌿 **Health Benefits:**
+
+Our spices are rich in antioxidants and have natural healing properties.
+
+**Key Benefits:**
+• Anti-inflammatory properties
+• Digestive health support
+• Immune system boost
+• Traditional Ayurvedic wisdom
+
+**Specific Benefits:**
+• Garam Masala: Warming, digestive aid
+• Biryani Masala: Aromatic, appetite stimulant
+• Chicken Masala: Protein enhancement
+• Mungvadi: Protein-rich nutrition
+• Kitchen King: Balanced nutrition
+• Pav Bhaji: Digestive support
+• Onion-Garlic: Immune boosting
+
+Pure natural ingredients for your health! 🌿
+
+================================================================================
+                            SPICE STORAGE & CARE
+================================================================================
+
+KEYWORDS: "storage", "store", "preserve", "shelf life", "expiry"
+
+RESPONSE:
+📦 **Spice Storage Tips:**
+
+**Best Storage Practices:**
+• Store in airtight containers
+• Keep in cool, dry place
+• Avoid direct sunlight
+• Keep away from heat sources
+
+**Shelf Life:**
+• Unopened: 2-3 years
+• Opened: 6-12 months
+• Best used within 6 months for maximum flavor
+
+**Signs of Spoilage:**
+• Loss of aroma
+• Change in color
+• Musty smell
+
+Store properly to maintain freshness! 🌶️
+
+================================================================================
+                                COOKING TIPS
+================================================================================
+
+KEYWORDS: "cooking tip", "how to cook", "cooking technique", "spice technique"
+
+RESPONSE:
+👨‍🍳 **Cooking Tips:**
+
+**General Tips:**
+• Add spices at the right time
+• Toast whole spices before grinding
+• Use fresh spices for best flavor
+• Balance flavors properly
+
+**When to Add Spices:**
+• Whole spices: Start of cooking
+• Ground spices: After onions are golden
+• Garam masala: End of cooking
+• Fresh herbs: Just before serving
+
+**Pro Tips:**
+• Bloom spices in hot oil
+• Don't burn spices
+• Taste as you cook
+• Store properly for longevity
+
+Master the art of spice cooking! 🔥
+
+================================================================================
+                            SPICE COMBINATIONS
+================================================================================
+
+KEYWORDS: "combination", "mix", "blend", "pair", "goes with"
+
+RESPONSE:
+🎨 **Spice Combinations:**
+
+**Perfect Pairs:**
+• Garam Masala + Cumin: Rich curries
+• Biryani Masala + Saffron: Luxurious rice
+• Chicken Masala + Yogurt: Tender meat
+• Mungvadi + Turmeric: Healthy lentils
+
+**Regional Combinations:**
+• North Indian: Garam Masala + Kitchen King
+• South Indian: Curry leaves + Mustard seeds
+• Maharashtrian: Mungvadi + Goda masala
+• Street Food: Pav Bhaji + Onion-Garlic
+
+**Flavor Profiles:**
+• Warming: Garam Masala, Cinnamon
+• Aromatic: Biryani Masala, Cardamom
+• Spicy: Chicken Masala, Red Chilli
+• Earthy: Mungvadi, Cumin
+
+Create magic with spice combinations! ✨
+
+================================================================================
+                            SPICE ORIGINS & SOURCING
+================================================================================
+
+KEYWORDS: "origin", "source", "where from", "sourcing", "ingredients"
+
+RESPONSE:
+🌍 **Spice Origins & Sourcing:**
+
+**Our Sourcing Philosophy:**
+• Direct from farmers and trusted suppliers
+• Premium quality ingredients only
+• Traditional growing regions
+• Sustainable and ethical sourcing
+
+**Key Ingredients Origins:**
+• Cardamom: Kerala, Karnataka
+• Cinnamon: Kerala, Sri Lanka
+• Black Pepper: Malabar Coast
+• Cumin: Rajasthan, Gujarat
+• Coriander: Madhya Pradesh
+• Cloves: Kerala, Zanzibar
+
+**Quality Assurance:**
+• Multiple quality checks
+• Traditional processing methods
+• No compromise on authenticity
+
+Every spice tells a story of tradition! 📖
+
+================================================================================
+                                QUALITY QUERIES
+================================================================================
+
+KEYWORDS: "quality", "natural", "organic", "pure"
+
+RESPONSE:
+✨ **Our Quality:**
+
+**100% Natural:** No artificial additives or preservatives
+**Premium Quality:** Hand-picked spices from finest sources
+**Traditional Methods:** Generations-old recipes and authentic techniques
+**Made with Love:** Passionate craftsmanship and attention to detail
+
+We maintain the highest standards in every batch! 🌟
+
+================================================================================
+                                GREETINGS
+================================================================================
+
+KEYWORDS: "hello", "hi", "hey", "namaste"
+
+RESPONSE:
+Namaste! 🙏
+
+Welcome to **Indrayani Naturals**!
+
+I'm your AI Spice Assistant. I can help with:
+• Our spice products and pricing
+• Traditional recipes
+• Contact information
+• Health benefits
+
+How can I assist you today?
+
+================================================================================
+                                THANKS
+================================================================================
+
+KEYWORDS: "thank", "thanks", "dhanyawad"
+
+RESPONSE:
+You're most welcome! 🙏
+
+Thank you for choosing **Indrayani Naturals**.
+
+If you have more questions about our spices, recipes, pricing, or anything else, feel free to ask anytime! 🌟
+
+================================================================================
+                                DEFAULT RESPONSE
+================================================================================
+
+RESPONSE (for unrecognized queries):
+Thank you for your question! 🤔
+
+I'm here to help with everything about **Indrayani Naturals**:
+
+**Popular Topics:**
+• Our spice products and pricing
+• Traditional recipes and cooking tips
+• Spice combinations and storage
+• Health benefits and origins
+• Contact and company information
+
+Could you please be more specific? I'm here to help! 🌶️
+
+================================================================================
+                                QUICK ACTION BUTTONS
+================================================================================
+
+The chatbot has 4 quick action buttons:
+
+1. **"Our Products"** - Triggers product information
+2. **"Recipe Ideas"** - Triggers recipe suggestions
+3. **"Cooking Tips"** - Triggers cooking techniques
+4. **"Contact Info"** - Triggers contact information
+
+================================================================================
+                                TESTING GUIDE
+================================================================================
+
+To test all chatbot responses:
+
+1. **Product Testing:**
+   - Ask: "What products do you sell?"
+   - Ask: "Tell me about Garam Masala"
+   - Ask: "What is Biryani Masala?"
+
+2. **Recipe Testing:**
+   - Ask: "Give me recipe ideas"
+   - Ask: "How to use Chicken Masala?"
+   - Ask: "What dishes can I make?"
+
+3. **Cooking Tips Testing:**
+   - Ask: "Give me cooking tips"
+   - Ask: "How should I store spices?"
+   - Ask: "What are spice combinations?"
+
+4. **Traditional Dishes Testing:**
+   - Ask: "Tell me about traditional dishes"
+   - Ask: "What are Maharashtrian specialties?"
+   - Ask: "Regional cuisine"
+
+5. **Health & Quality Testing:**
+   - Ask: "What are the health benefits?"
+   - Ask: "Are your spices natural?"
+   - Ask: "Where do you source from?"
+
+6. **Contact & Business Testing:**
+   - Ask: "How can I contact you?"
+   - Ask: "Where are you located?"
+   - Ask: "How do I order?"
+
+7. **General Testing:**
+   - Say: "Hello"
+   - Say: "Thank you"
+   - Ask: "What can you help me with?"
+
+================================================================================
+                                NOTES
+================================================================================
+
+• The chatbot uses keyword matching (case-insensitive)
+• Multiple keywords can trigger the same response
+• Responses include emojis and markdown formatting
+• The chatbot works in both AI mode and fallback mode
+• All responses are designed to be helpful and informative
+• The chatbot maintains a friendly, professional tone
+
+================================================================================
+                                END OF GUIDE
+================================================================================
+
+Last Updated: 2025
+File: CHATBOT_RESPONSES_GUIDE.txt
+Version: 1.0 

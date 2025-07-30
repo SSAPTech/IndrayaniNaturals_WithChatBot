@@ -239,6 +239,7 @@ img {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
     z-index: 1000;
+    /* Note: AI chatbot toggle is positioned above this button (bottom: 100px) */
 }
 
 .home-button:hover {

@@ -26,4 +26,7 @@ build/
 
 # Cache directories
 .cache/
-.temp/ 
+.temp/
+
+# API Configuration
+config/api-keys.json 
