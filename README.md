@@ -146,7 +146,7 @@ IndrayaniNaturals/
      ```
 
 4. **Access the website**
-   - Navigate to `http://localhost:8000` in your browser
+   - Navigate to `https://indrayaninaturals.com/` in your browser
 
 ## 🎨 Customization
 
@@ -213,13 +213,6 @@ For technical support or questions:
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📊 Project Status
 
@@ -234,4 +227,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ---
 
-**Indrayani Naturals** - Bringing authentic Indian flavors to your kitchen since [Year]. 🌶️✨
+**Indrayani Naturals** - Bringing authentic Indian flavors to your kitchen since 2025. 🌶️✨
